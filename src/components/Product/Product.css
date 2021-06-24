@@ -13,8 +13,7 @@
 .buy-button{
     background-color: goldenrod;
     height: 30px;
-    width: 130px;
-    padding: 5px 15px;
+    width: 160px;
     border: 1px solid black;
     border-radius: 3px;
     cursor: pointer;
