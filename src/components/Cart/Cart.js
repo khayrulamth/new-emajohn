@@ -4,8 +4,7 @@ import './Cart.css';
 
 const Cart = (props) => {
     const cart = props.cart;
-    console.log(cart);
-    const total = cart.reduce( (total,prd) => total+prd.price , 0 );
+    const total = cart.reduce( (total,prd) => total+prd.price * prd.quantity , 0 );
     let shippingCost = 0;
     if (total>350){shippingCost = 0}
     else if(total>200){shippingCost = 20}
