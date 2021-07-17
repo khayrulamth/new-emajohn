@@ -1,0 +1,15 @@
+.shipment-form{
+    text-align:center;
+}
+.shipment-form>input{
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.submit{
+    background-color: #323232;
+    color: #fff;
+    padding: 0 20px;
+}
+span{
+    display: block;
+}
